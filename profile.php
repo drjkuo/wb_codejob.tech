@@ -5,7 +5,8 @@ include('session.php');
 <html>
 <head>
 <title>Current users</title>
-<link href="style.css" rel="stylesheet" type="text/css">
+
+
 </head>
 <body>
 <div id="profile">

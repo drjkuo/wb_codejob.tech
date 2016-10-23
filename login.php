@@ -13,12 +13,8 @@ $password=$_POST['password'];
 
 
 $file = fopen("./pasw.txt", "r");
-//while(! feof($file)) //echo all contents in the file
-//{
 $read_user = fgets($file);
 $read_pass = fgets($file);
-//}
-
 fclose($file);
 
 

@@ -54,6 +54,8 @@
             <li><a href="./contact.php">Contact</a></li>
             <li><a href="./login_index.php">Admin login</a></li>
             <li><a href="./logout.php">Admin logout</a></li>
+            <li><a href="./user_add_info.php">User add info</a></li>
+            <li><a href="./user_search_info.php">User search info</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
