@@ -1,3 +1,6 @@
+<b id="backtoindex"><a href="index.php">Back to index</a></b><br>
+
+
 <?php 
 //session_start();
 $fname=$_POST['fname'];
@@ -30,5 +33,3 @@ mysqli_close($conn);
 
 ?> 
 
-<br>
-<b id="backtoindex"><a href="index.php">Back to index</a></b>

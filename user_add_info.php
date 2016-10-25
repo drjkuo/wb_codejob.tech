@@ -2,9 +2,9 @@
 //include('add_db.php'); // Includes Add Script
 
 
-if(isset($_POST['submit'])){
-header("location: add_db.php");
-}
+//if(isset($_POST['submit'])){
+//header("location: add_db.php");
+//}
 
 ?>
 

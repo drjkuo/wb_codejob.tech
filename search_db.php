@@ -3,6 +3,8 @@
 <head>
 <title>Search result</title>
 
+
+<b id="backtoindex"><a href="index.php">Back to index</a></b><br>
 <?php 
 
 if (isset($_POST['submit'])) {
@@ -103,7 +105,7 @@ echo "Fetched data successfully<br>";
 
 ?> 
 
-<b id="backtoindex"><a href="index.php">Back to index</a></b>
+
 </div>
 </body>
 </html>
