@@ -24,8 +24,8 @@ if ($conn->connect_error) {
 //$sql = "INSERT INTO user_info (fname, lname, email, haddress, hphone, cphone)
 //VALUES ('$fname', '$lname', '$email', '$haddress', '$hphone', '$cphone')";
 
-$sql = "SELECT * FROM user_info
-WHERE (fname='$fname') AND (lname='$lname')";
+//$sql = "SELECT * FROM user_info
+//WHERE (fname='$fname') AND (lname='$lname')";
 
 //OR lname='$lname' OR email='$email' OR 
 //haddress='$haddress' OR hphone='$hphone' OR cphone='$cphone' )";
@@ -44,25 +44,36 @@ $where .= "and english_name= '$value2 '";
 $query = "SELECT * FROM moth_sightings $where";
 */
 
-$where = "WHERE fname='$fname'";
+$where = "WHERE";
 
+
+
+if(!empty($fname)){
+$where .= "(fname='$fname') AND";
+}
 if(!empty($lname)){
-$where .= "and lname = '$lname'";
+$where .= "(lname = '$lname') AND";
 }
 if(!empty($email)){
-$where .= "and email = '$email'";
+$where .= "(email = '$email') AND";
 }
 if(!empty($haddress)){
-$where .= "and haddress = '$haddress'";
+$where .= "(haddress = '$haddress') AND";
 }
 if(!empty($hphone)){
-$where .= "and hphone = '$hphone'";
+$where .= "(hphone = '$hphone') AND";
 }
 if(!empty($cphone)){
-$where .= "and cphone = '$cphone'";
+$where .= "(cphone = '$cphone') AND";
 }
-$sql = "SELECT * FROM user_info $where";
 
+$where = chop($where,"AND");
+
+if ($fname=="all"){
+$where = '';
+} 
+
+$sql = "SELECT * FROM user_info $where";
 
 
 $retval = mysqli_query($conn,  $sql);

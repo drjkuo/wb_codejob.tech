@@ -10,7 +10,8 @@ include('session.php');
 </head>
 <body>
 <div id="profile">
-<b id="welcome">List of current users: <i><?php echo $login_session; ?></i></b>
+<b id="welcome">List of current users: <i> 
+<!--<?php echo $login_session; ?></i></b-->
 
 <?php
 $file = fopen("./current_user.txt", "r");

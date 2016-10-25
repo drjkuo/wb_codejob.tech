@@ -1,11 +1,11 @@
 <?php
-include('add_db.php'); // Includes Add Script
+//include('add_db.php'); // Includes Add Script
 
-/*
-if(isset($_SESSION['login_user'])){
-header("location: profile.php");
+
+if(isset($_POST['submit'])){
+header("location: add_db.php");
 }
-*/
+
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +20,7 @@ header("location: profile.php");
 <h1>User add info</h1>
 <div id="add">
 
-<form action="" method="post">
+<form  method="post" action="add_db.php"  id="addform">
 <label>First name</label>
 <input id="fname" name="fname" type="text"><br>
 <label>Last name</label>

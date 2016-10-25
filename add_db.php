@@ -28,6 +28,7 @@ if (mysqli_query($conn, $sql)) {
 
 mysqli_close($conn);
 
-
-
 ?> 
+
+<br>
+<b id="backtoindex"><a href="index.php">Back to index</a></b>

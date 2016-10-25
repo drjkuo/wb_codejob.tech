@@ -1,28 +1,22 @@
 <?php
 //include('search_db.php'); // Includes Add Script
-
-/*
-if(isset($_SESSION['login_user'])){
-header("location: profile.php");
-}
-*/
 ?>
 <?php
-if (isset($_POST['submit']))
-header('Location: search_db.php');
+//if (isset($_POST['submit']))
+//header('Location: search_db.php');
 ?>
 
 
 <!DOCTYPE html>
 <html>
 <head>
-<title>User add info</title>
+<title>User search info</title>
 </head>
 
 
 <body>
 <div id="main">
-<h1>User search info</h1>
+<h1>User search info (type "all" in First Name to see all records)</h1>
 <div id="search">
 
 
