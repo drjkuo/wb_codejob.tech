@@ -18,7 +18,7 @@ $read_pass = fgets($file);
 fclose($file);
 
 
-if ($username == $read_user || $password == $read_pass) {
+if ($username == $read_user && $password == $read_pass) {
 $_SESSION['login_user']=$username; // Initializing Session
 header("location: profile.php"); // Redirecting To Other Page
 	} else {
