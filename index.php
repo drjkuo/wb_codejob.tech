@@ -43,7 +43,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">CodeJob</a>
+          <a class="navbar-brand" mb-0 href="#">CodeJob</a>
+          <a class="navbar-brand" mb-0 href="#"></a>
+          <a class="navbar-brand" href="./login_index.php">Admin login</a>
+          <a class="navbar-brand" href="./logout.php">Admin logout</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -52,10 +55,11 @@
             <li><a href="./about.php">About</a></li>
             <li><a href="./service.php">Service</a></li>
             <li><a href="./contact.php">Contact</a></li>
-            <li><a href="./login_index.php">Admin login</a></li>
-            <li><a href="./logout.php">Admin logout</a></li>
-            <li><a href="./user_add_info.php">User add info</a></li>
-            <li><a href="./user_search_info.php">User search info</a></li>
+            <!--li><a href="./login_index.php">Admin login</a></li-->
+            <!--li><a href="./logout.php">Admin logout</a></li-->
+            <li><a href="./user_add_info.php">Add user</a></li>
+            <li><a href="./user_search_info.php">Search user</a></li>
+            <li><a href="./show_history.php">Show history</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

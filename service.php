@@ -175,7 +175,7 @@
       
 
       <?php
-      include('recent_view.php'); // Includes Login Script
+      //include('recent_view.php'); // Includes Login Script
  	  ?>
       
 

@@ -1,3 +1,7 @@
+<?php
+include('recent_view.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
