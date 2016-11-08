@@ -60,7 +60,7 @@
             <li><a href="./user_add_info.php">Add user</a></li>
             <li><a href="./user_search_info.php">Search user</a></li>
             <li><a href="./show_history.php">Show history</a></li>
-            <li><a href="./show_users.php">Show users from partner</a></li>
+            <li><a href="./show_users.php">Show all users either in CodeJob or in Gamearts</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
