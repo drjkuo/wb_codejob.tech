@@ -1,6 +1,7 @@
 # Enable rewriting.
 RewriteEngine on
 
+Header set Access-Control-Allow-Origin *
 Header add Vary "User-Agent"
 Header add X-Generated "%t"
 
